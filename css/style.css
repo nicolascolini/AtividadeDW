@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .header {
+    background-color: RGB(#333);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-left: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+  
+main {
+
+padding: 20px;
+
+}
+
+.movies-container {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-around;
+  align-items: flex-start; 
+}
+
+.movie {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 10px;
+  max-width: 300px;
+}
+
+   .card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+    max-width: 300px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 15px;
+    margin-bottom: 15px;
+
+  }
+
+.card-content h3 {
+    margin: 0 0 10px;
+    font-size: 1.2em;
+}
+
+.card-content p {
+    margin: 0;
+}
+
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 230px;
+    box-sizing: border-box;
+
+  }
+
+  .iconetop {
+
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 999;
+
+  }
+
+  .button-fixed {
+
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+
+  }
+
+  .button-fixed svg {
+
+    width: 67px;
+    height: auto;
+    fill: rgb(218, 236, 241);
+  }
+
+  .content {
+
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+    
+  }
+
+  .logos {
+
+    padding: 25px;
+  }
+
+
+  .formulario {
+
+    background-color: rgb(122, 122, 122);
+    box-shadow: 5px 0px 10px;
+    width: 30%;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+
+  }
+
+  .button {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color:rgb(122, 122, 122);
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    margin-top: 10px;
+    
+
+  }
+
+  .button:hover {
+    
+    background-color: transparent;
+    color: rgb(122, 122, 122)
+  }
+
+  
